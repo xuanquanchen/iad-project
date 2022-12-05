@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "jsxFactory": "VueTsxSupport",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "~/*": ["src/*"],
+      "@/*": ["src/*"],
+    },
+    "types": ["vue3-baidu-map-gl/volar"],
+    "skipLibCheck": true,
+    "allowJs": true
+  },
+  "include": ["node_modules/vue-tsx-support/enable-check.d.ts","src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/request/request.js", "src/request/api.js", "src/request/api.js", "src/request/request.js"]
+}
